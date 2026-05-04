@@ -37,11 +37,6 @@ RECORD_TYPES = {
 # start date of the exams.
 START_DATE = '2024-09-01'
 
-if not XML.exists():
-    raise FileNotFoundError(f'export.xml not found at {XML}')
-# start date of the exams.
-START_DATE = '2024-09-01'
-
 # checking if the file exists using os
 if not os.path.exists(RAW):
     raise FileNotFoundError(f'export.xml not found at {RAW}')
